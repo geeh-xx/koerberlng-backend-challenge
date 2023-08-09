@@ -1,4 +1,4 @@
-package com.challenge.challenge.usecase;
+package com.challenge.challenge.fileprovider;
 
 import com.challenge.challenge.util.Utilitary;
 import lombok.extern.slf4j.Slf4j;
@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Slf4j
-public class CsvDataImportUseCase {
+public class CsvDataImportService {
 
 
     public <T> List<T> convertFile(InputStream is, Class<T> clazz) throws IOException {

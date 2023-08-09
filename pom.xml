@@ -76,11 +76,6 @@
             <version>1.11.2</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.parquet</groupId>
-            <artifactId>parquet-hadoop</artifactId>
-            <version>1.12.0</version> <!-- Versão atualizada, verifique a última versão disponível -->
-        </dependency>
 
         <dependency>
             <groupId>org.apache.parquet</groupId>
@@ -98,6 +93,12 @@
             <groupId>org.apache.arrow</groupId>
             <artifactId>arrow-vector</artifactId>
             <version>5.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.0.3</version>
         </dependency>
 
     </dependencies>

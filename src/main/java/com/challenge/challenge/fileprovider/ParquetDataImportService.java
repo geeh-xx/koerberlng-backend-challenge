@@ -1,4 +1,4 @@
-package com.challenge.challenge.usecase;
+package com.challenge.challenge.fileprovider;
 
 import com.challenge.challenge.util.ParquetIterator;
 import com.challenge.challenge.util.Utilitary;
@@ -23,7 +23,7 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 @Slf4j
-public class ParquetDataImportUseCase {
+public class ParquetDataImportService {
 
     public <T> List<T> convertFile(File parquetFile, Class<T> clazz) throws IOException {
         long fileSize = parquetFile.length();

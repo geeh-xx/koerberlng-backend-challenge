@@ -1,4 +1,4 @@
-package com.challenge.challenge.dataprovider.entity;
+package com.challenge.challenge.dataprovider.entities;
 
 import lombok.Getter;
 import lombok.Setter;
